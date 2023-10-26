@@ -17,16 +17,17 @@
 
    video {
      display: block;
-     margin: 5rem auto;
+     width: 800px;
+     margin: 2rem auto;
      mask-image:url("../assets/nut.svg");
       -webkit-mask-image:url("../assets/nut.svg");
       -webkit-mask-mode: luminance;
-      -webkit-mask-repeat: repeat-x;
+      -webkit-mask-repeat: no-repeat;
       -webkit-mask-size: 50%;
       -webkit-mask-position: center center;
    }
 
    audio {
     display:block;
-    margin:2rem auto;
+    margin:1rem auto;
   }
